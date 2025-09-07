@@ -1,0 +1,70 @@
+.atas{
+    background-color: #6943FF;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#atur{
+display: flex;
+   flex-direction: column;
+}
+
+input{
+    height:50px;
+    width: 100px;
+    border-color:#273549;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+button{
+   font-size: medium;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border-radius: 5px
+}
+
+.bawah{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:30px 10px ;
+    background-color: #F4F4F4;
+    text-align: center;
+}
+
+#panjang{
+    padding: 5px 5px;    
+    background-color: white;
+    height: 100px;
+}
+
+#volume{
+    margin-top: 20px;
+    padding: 5px 5px;    
+    background-color: white;
+    height: 100px;
+}
+
+#berat{
+    margin-top: 20px;
+    padding: 5px 5px;    
+    background-color: white;
+    height: 100px;
+}
+
+h4{
+    font-size: large;
+}
+
+h3{
+    font-size: medium;
+}
