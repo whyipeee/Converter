@@ -70,65 +70,75 @@ h3{
 }
 
 @media screen and (max-width: 480px) {
-   
-    #hero {
-        height: 400px;
-        padding: 0px 20px 60px 20px;
-        font-size: 24px;
-        align-items: center;
-        text-align: center;
-    }
+ .atas{
+    background-color: #6943FF;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#atur{
+display: flex;
+   flex-direction: column;
+}
+
+input{
+    height:30px;
+    width: 400px;
+    border-color:#273549;
+    color: black;
+    font-size: 10px;
+    text-align: center;
+}
+
+button{
+   font-size: medium;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    height: 20px;
+    width: 480px;
+    background-color: white;
+    border-radius: 5px
+}
+
+.bawah{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:20px 5px ;
+    background-color: #F4F4F4;
+    text-align: center;
+}
+
+#panjang{
+    padding: 2px 2px;    
+    background-color: white;
+    height: 80px;
+}
+
+#volume{
+    margin-top: 10px;
+    padding: 2px 2px;    
+    background-color: white;
+    height: 80px;
+}
+
+#berat{
+    margin-top: 10px;
+    padding: 2px 2px;    
+    background-color: white;
+    height: 80px;
+}
+
+h4{
+    font-size: large;
+}
+
+h3{
+    font-size: medium;
+}
     
-    #Visit {
-        margin: 200px auto 0px auto;
-        font-size: 24px;
-        padding: 6px 12px;
-        text-align: center;
-    }
-    
-    #Vibrant {
-        margin: 10px auto auto auto;
-        font-size: 18px;
-        padding: 6px 12px;
-        text-align: center;
-    }
-    
-    #Aktiv-section {
-        padding: 30px 15px;
-    }
-    
-    #Aktivitas-Title {
-        font-size: 28px;
-        margin: 20px auto;
-    }
-    
-    .column {
-        gap: 30px;
-    }
-    
-    .gambar, .gambar1 {
-        width: 150px;
-        height: 150px;
-    }
-    
-    #card {
-        padding: 20px;
-        margin: 20px 10px;
-        border-radius: 20px;
-        width: calc(100% - 20px);
-    }
-    
-    #isi {
-        margin: 0px 10px 20px 5px;
-        font-size: 14px;
-    }
-    
-    #sub {
-        margin: 10px 10px 5px 5px;
-        font-size: 16px;
-    }
-    
-    h4 {
-        font-size: 16px;
-    }
 }
