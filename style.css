@@ -68,3 +68,67 @@ h4{
 h3{
     font-size: medium;
 }
+
+@media screen and (max-width: 480px) {
+   
+    #hero {
+        height: 400px;
+        padding: 0px 20px 60px 20px;
+        font-size: 24px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #Visit {
+        margin: 200px auto 0px auto;
+        font-size: 24px;
+        padding: 6px 12px;
+        text-align: center;
+    }
+    
+    #Vibrant {
+        margin: 10px auto auto auto;
+        font-size: 18px;
+        padding: 6px 12px;
+        text-align: center;
+    }
+    
+    #Aktiv-section {
+        padding: 30px 15px;
+    }
+    
+    #Aktivitas-Title {
+        font-size: 28px;
+        margin: 20px auto;
+    }
+    
+    .column {
+        gap: 30px;
+    }
+    
+    .gambar, .gambar1 {
+        width: 150px;
+        height: 150px;
+    }
+    
+    #card {
+        padding: 20px;
+        margin: 20px 10px;
+        border-radius: 20px;
+        width: calc(100% - 20px);
+    }
+    
+    #isi {
+        margin: 0px 10px 20px 5px;
+        font-size: 14px;
+    }
+    
+    #sub {
+        margin: 10px 10px 5px 5px;
+        font-size: 16px;
+    }
+    
+    h4 {
+        font-size: 16px;
+    }
+}
