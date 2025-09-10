@@ -88,7 +88,7 @@ display: flex;
 
 input{
     height:30px;
-    width: 50px;
+    width: 80px;
     border-color:#273549;
     color: black;
     font-size: 10px;
@@ -101,7 +101,7 @@ button{
     margin-bottom: 10px;
     margin-left: 2px;
     height: 20px;
-    width: 50px;
+    width: 80px;
     background-color: white;
     border-radius: 5px
 }
